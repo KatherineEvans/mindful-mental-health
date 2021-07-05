@@ -73,10 +73,8 @@
 .blog-title > h3 {
   font-size: 16px;
   font-weight: 300;
-  margin-bottom: 15px;
-  overflow: hidden;
+  margin-bottom: 15px;  
   text-transform: uppercase;
-  white-space: nowrap;
 }
 
 .blog-img img {
