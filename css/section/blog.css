@@ -26,7 +26,7 @@
 }
 .author-date {
     border-bottom: 1px solid #ededed;
-    border-top: 1px solid #ededed;
+    /* border-top: 1px solid #ededed; */
     margin-bottom: 20px;
     padding: 5px 0;
 }

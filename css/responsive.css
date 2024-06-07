@@ -12,6 +12,9 @@
     padding: 0px 50px;
   }
 
+  .marlee {
+    height: 125vh;
+  }
 
 
 }
@@ -94,6 +97,10 @@
     width: 100%;
   }
 
+  .marlee {
+    height: 125vh;
+  }
+
   .side-space .intelligent-header {
     left: 0;
     right: 0;
@@ -117,7 +124,9 @@
   .container {
     width: 750px;
   }
-
+ .marlee {
+    height: 100%;
+  }
   .grid-item {
     width: 50%;
   }
@@ -347,6 +356,9 @@
 
 /* portrait mobile :320px. */
 @media (max-width: 767px) {
+  .marlee {
+    height: 100%;
+  }
   .container {
     width: 300px
   }
@@ -946,6 +958,9 @@
 
 /* landscape Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  .marlee {
+    height: 100%;
+  }
   .container {
     width: 450px
   }
