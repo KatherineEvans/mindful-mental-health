@@ -26,6 +26,28 @@
     <link rel="stylesheet" href="css/section/shortcodes.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <style>
+      @media (min-width: 992px) {
+        .about-row-flex {
+          display: flex !important;
+          align-items: stretch !important;
+        }
+        .marlee-column {
+          display: flex !important;
+          flex-direction: column !important;
+          justify-content: flex-end !important;
+        }
+      }
+      @media (max-width: 991px) {
+        .about-row-flex {
+          display: block !important;
+        }
+        .marlee-column {
+          display: block !important;
+          margin-top: 30px !important;
+        }
+      }
+    </style>
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
   </head>
   <body>
@@ -89,7 +111,7 @@
     <!--about-top-area-start-->
     <section class="about-me-area pt-50">
       <div class="container">
-        <div class="row" style="margin-bottom: 45px">
+        <div class="row about-row-flex" style="margin-bottom: 45px">
           <div class="col-md-4 col-sm-12 col-xs-12">
             <div class="about-photo text-center">
               <img style="max-width: 277px; max-height: 429px" src="img/emily.JPG" alt="Emily Schwass" />
@@ -98,7 +120,7 @@
           <div class="col-md-6 col-sm-12 col-xs-12">
             <div class="about-me-desc">
               <div class="about-optima-text">
-                <p style="font-weight: bold">Hello, and welcome!</p>
+                <p style="font-size: 18px; font-weight: bold">Hello, and welcome!</p>
                 <p style="font-size: 18px">
                   My name is Emily Schwass (she/her), and I am a Licensed Clinical Social Worker-Supervisor. I hold a
                   Master's Degree in Social Work from the University of St. Francis and a Bachelor's Degree in Sociology
@@ -139,20 +161,16 @@
                   outdoors, and spending time with my friends, family, and my dog, Marlee.
                 </p>
 
-                <p style="font-size: 18px"></p>
-                <p>
+                <p style="font-size: 18px">
                   I would be honored to support you in your healing and growth. Please feel free to reach out with any
                   questions. We can move at your pace, with care, curiosity, and a shared commitment to your well-being.
                 </p>
               </div>
             </div>
           </div>
-          <div
-            class="col-md-2 col-sm-12 col-xs-12 marlee"
-            style="display: flex; flex-direction: column; justify-content: end; height: 100%"
-          >
-            <div class="about-photo text-center" style="margin-top: auto">
-              <img style="max-width: 200px; border-radius: 50%" src="img/marlee-square.png" alt="Emily Schwass" />
+          <div class="col-md-2 col-sm-12 col-xs-12 marlee marlee-column">
+            <div class="about-photo text-center">
+              <img style="max-width: 200px; border-radius: 50%" src="img/marlee-square.png" alt="Marlee" />
             </div>
           </div>
         </div>
