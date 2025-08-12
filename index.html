@@ -31,7 +31,7 @@
   <body>
     <div class="wrapper">
       <!-- header start -->
-      <header>
+      <header style="background-color: color-mix(in srgb, #727b60 80%, white 90%)">
         <div class="header-area header-sticky">
           <div class="container">
             <div class="row">
@@ -67,11 +67,19 @@
       <!-- header end -->
 
       <!--Slider animate text area start-->
-      <div class="slider deep-gray-bg slider-img-bg-2 bg-fixed black-overlay ptb-100">
+      <div class="slider deep-gray-bg slider-img-bg-2 bg-fixed ptb-100">
         <div class="container">
-          <div class="slider-text text-center slider-style-2" style="overflow-x: hidden">
-            <img src="img/mmh-logo.png" alt="Mindful Mental Health" style="max-width: 100%" />
+          <!-- <div class="slider-text text-center slider-style-2" style="overflow-x: hidden"> -->
+          <div class="row no-gutters text-center" style="margin-bottom: 35px">
+            <h1 class="bottom-border" style="color: white"><strong>Welcome to Mindful Mental Health</strong></h1>
+            <h3 style="margin-top: 25px; color: white">
+              Inclusive, affirming therapy for authentic growth and grounded boundaries.
+            </h3>
+            <h5 style="margin-top: 20px; color: white">
+              <em>Providing virtual therapy for Illinois and Texas residents</em>
+            </h5>
           </div>
+          <!-- </div> -->
         </div>
       </div>
       <!--Slider animate text area end-->
@@ -79,44 +87,87 @@
       <!-- portfolio start -->
       <div class="portfolio-area ptb-90">
         <div class="container">
-          <div class="row no-gutters text-center" style="margin-bottom: 35px">
-            <h2 class="bottom-border" style="color: #1a466d"><strong>Welcome to Mindful Mental Health!</strong></h2>
-            <h4 style="margin-top: 25px"><em>Providing virtual therapy for Illinois and Texas residents</em></h4>
-          </div>
-          <div class="row no-gutters">
-            <p style="font-size: 18px">
-              I believe that healing is not only personal; it is also political, relational, and deeply shaped by the
-              systems we live within. Everyone deserves to feel heard, affirmed, and valued, especially in a world where
-              many voices are silenced or overlooked. My mission is to co-create a space that is liberatory, inclusive,
-              and trauma-informed, where your lived experiences, identities, and truths are honored. Together, we will
-              explore your goals with compassion, cultural humility, mindfulness, and a deep respect for your wisdom and
-              resilience.
-            </p>
-          </div>
-          <div class="row no-gutters" style="margin-top: 25px">
-            <h4 style="color: #1a466d; font-size: 20px"><strong>Therapy can support you to:</strong></h4>
-            <ol style="font-size: 18px">
-              <li style="list-style-type: disc">Develop a deeper understanding of yourself</li>
-              <li style="list-style-type: disc">Reclaim your sense of power, voice, and agency</li>
-              <li style="list-style-type: disc">
-                Heal from trauma, including systemic, interpersonal, and collective trauma
-              </li>
-              <li style="list-style-type: disc">Strengthen boundaries</li>
-              <li style="list-style-type: disc">Build self-esteem</li>
-              <li style="list-style-type: disc">Cultivate self-compassion and acceptance</li>
-              <li style="list-style-type: disc">Foster resilience</li>
-              <li style="list-style-type: disc">Improve your relationships with others</li>
-              <li style="list-style-type: disc">Relieve anxiety or stress</li>
-              <li style="list-style-type: disc">Cope with life transitions</li>
-              <li style="list-style-type: disc">Improve coping skills</li>
-              <li style="list-style-type: disc">Cultivate present-moment awareness and acceptance</li>
-            </ol>
+          <div class="row" style="display: flex; align-items: stretch">
+            <div
+              class="col-12 col-md-5"
+              style="display: flex; align-items: center; flex: 0 0 41.666667%; max-width: 41.666667%"
+            >
+              <p style="font-size: 18px">
+                I believe that healing is not only personal; it is also political, relational, and deeply shaped by the
+                systems we live within. Everyone deserves to feel heard, affirmed, and valued, especially in a world
+                where many voices are silenced or overlooked. My mission is to co-create a space that is liberatory,
+                inclusive, and trauma-informed, where your lived experiences, identities, and truths are honored.
+                Together, we will explore your goals with compassion, cultural humility, mindfulness, and a deep respect
+                for your wisdom and resilience.
+              </p>
+            </div>
+            <div
+              class="col-12 col-md-7"
+              style="
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                border-left: 1px solid #ccc;
+                padding-left: 30px;
+                flex: 0 0 58.333333%;
+                max-width: 58.333333%;
+              "
+            >
+              <style>
+                @media (min-width: 768px) {
+                  .col-12.col-md-5 {
+                    padding-right: 30px;
+                    flex: 0 0 41.666667% !important;
+                    max-width: 41.666667% !important;
+                  }
+                  .col-12.col-md-7 {
+                    flex: 0 0 58.333333% !important;
+                    max-width: 58.333333% !important;
+                  }
+                }
+                @media (max-width: 767px) {
+                  .row {
+                    flex-direction: column !important;
+                  }
+                  .col-12.col-md-5,
+                  .col-12.col-md-7 {
+                    flex: none !important;
+                    width: 100% !important;
+                    max-width: 100% !important;
+                  }
+                  .col-12.col-md-7 {
+                    border-left: none !important;
+                    padding-left: 0 !important;
+                    margin-top: 20px !important;
+                  }
+                }
+              </style>
+              <h3 style="color: #07200d; font-size: 20px; text-align: center; margin-bottom: 20px">
+                <strong>Therapy can support you to</strong>
+              </h3>
+              <ol style="font-size: 18px">
+                <li style="list-style-type: disc">Develop a deeper understanding of yourself</li>
+                <li style="list-style-type: disc">Reclaim your sense of power, voice, and agency</li>
+                <li style="list-style-type: disc">
+                  Heal from trauma, including systemic, interpersonal, and collective trauma
+                </li>
+                <li style="list-style-type: disc">Strengthen boundaries</li>
+                <li style="list-style-type: disc">Build self-esteem</li>
+                <li style="list-style-type: disc">Cultivate self-compassion and acceptance</li>
+                <li style="list-style-type: disc">Foster resilience</li>
+                <li style="list-style-type: disc">Improve your relationships with others</li>
+                <li style="list-style-type: disc">Relieve anxiety or stress</li>
+                <li style="list-style-type: disc">Cope with life transitions</li>
+                <li style="list-style-type: disc">Improve coping skills</li>
+                <li style="list-style-type: disc">Cultivate present-moment awareness and acceptance</li>
+              </ol>
+            </div>
           </div>
         </div>
       </div>
 
       <!-- footer start -->
-      <footer class="footer-bg ptb-30 text-left footer-style-1" style="background-color: #1a466d; color: #ffffff">
+      <footer class="footer-bg ptb-20 text-left footer-style-1">
         <div class="footer-area">
           <div class="container">
             <div
@@ -128,18 +179,18 @@
                   <div class="footer-info">
                     <div class="footer-menu">
                       <ul>
-                        <li><a href="https://www.mindfulmhealth.com" style="color: #ffffff">Home</a></li>
-                        <li><a href="https://www.mindfulmhealth.com/about-me" style="color: #ffffff">About</a></li>
-                        <li><a href="https://www.mindfulmhealth.com/services" style="color: #ffffff">Services</a></li>
-                        <li><a href="https://www.mindfulmhealth.com/fees" style="color: #ffffff">Fees</a></li>
-                        <li><a href="https://www.mindfulmhealth.com/hotlines" style="color: #ffffff">Hotlines</a></li>
-                        <li><a href="https://www.mindfulmhealth.com/contact" style="color: #ffffff">Contact</a></li>
+                        <li><a href="https://www.mindfulmhealth.com">Home</a></li>
+                        <li><a href="https://www.mindfulmhealth.com/about-me">About</a></li>
+                        <li><a href="https://www.mindfulmhealth.com/services">Services</a></li>
+                        <li><a href="https://www.mindfulmhealth.com/fees">Fees</a></li>
+                        <li><a href="https://www.mindfulmhealth.com/hotlines">Hotlines</a></li>
+                        <li><a href="https://www.mindfulmhealth.com/contact">Contact</a></li>
                       </ul>
                     </div>
                   </div>
                   <div class="footer-bottom">
                     <div class="copyright">
-                      <p style="color: #ffffff">© 2021 Mindful Mental Health, All Rights Reserved.</p>
+                      <p>© 2021 Mindful Mental Health, All Rights Reserved.</p>
                     </div>
                   </div>
                 </div>

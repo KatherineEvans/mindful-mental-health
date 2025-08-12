@@ -50,7 +50,24 @@ h1.heading-sub-title {
 }
 
 .slider-img-bg-2 {
-  background: rgba(0, 0, 0, 0) url("../../img/light-purple.png") no-repeat center center / cover ;
+  background: rgba(0, 0, 0, 0) url("../../img/rain-leaves.jpg") no-repeat center center / cover ;
+  position: relative;
+}
+
+.slider-img-bg-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.slider-img-bg-2 .container {
+  position: relative;
+  z-index: 2;
 }
 .slider-img-bg-3 {
   background: rgba(0, 0, 0, 0) url("../../img/bg/slider3.jpg") no-repeat center center / cover ;
@@ -109,7 +126,7 @@ h1.heading-sub-title {
 
 .black-overlay::before{
   background: #000000 none repeat scroll 0 0;
-  opacity: 0.1;
+  opacity: 0.4;
 }
 .teal-overlay::before{
   background: #009688 none repeat scroll 0 0;

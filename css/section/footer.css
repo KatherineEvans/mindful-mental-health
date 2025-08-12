@@ -8,6 +8,10 @@
     Version: 1.0
 
 -----------------------------------------------------------------------------------*/
+footer {
+  background-color: color-mix(in srgb, #727b60 80%, white 90%);
+}
+
 .footer-logo a {
   color: #222222;
   font-family: lato;
@@ -26,7 +30,7 @@
   text-transform: uppercase;
 }
 .footer-menu ul li a:hover {
-  color: #009688;
+  color: #07200d;
 }
 .footer-menu ul li {
   display: inline-block;
