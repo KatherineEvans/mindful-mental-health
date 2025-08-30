@@ -139,7 +139,7 @@
 /* stiky */
 .header-sticky.sticky {
   animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-  background-color: color-mix(in srgb, #727b60 80%, white 90%);
+  background-color: color-mix(in srgb, #daddb9 90%, white 80%);
   box-shadow: 0 1px 3px rgba(55, 55, 55, 0.5);
   left: 0;
   position: fixed;
