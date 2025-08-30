@@ -26,6 +26,18 @@
     <link rel="stylesheet" href="css/section/shortcodes.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <style>
+        @media (max-width: 767px) {
+            .service-header {
+                display: none !important;
+            }
+        }
+        @media (min-width: 768px) {
+            .service-column {
+                text-align: left !important;
+            }
+        }
+    </style>
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
   </head>
   <body>
@@ -65,9 +77,13 @@
                         <li><a href="https://www.mindfulmhealth.com/supervision">Supervision</a></li>
                       </ul>
                     </li>
-                    <li><a href="https://www.mindfulmhealth.com/fees" style="cursor: pointer">Fees</a></li>
-                    <li><a href="https://www.mindfulmhealth.com/hotlines" style="cursor: pointer">Hotlines</a></li>
+                    <li><a href="https://www.mindfulmhealth.com/hotlines" style="cursor: pointer">Resources</a></li>
                     <li><a href="https://www.mindfulmhealth.com/contact" style="cursor: pointer">Contact</a></li>
+                    <li>
+                      <a href="https://emily-schwass.clientsecure.me/sign-in" style="cursor: pointer">
+                        Client Portal
+                      </a>
+                    </li>
                   </ul>
                 </nav>
               </div>
@@ -107,7 +123,7 @@
       <div class="container">
         <div class="row" style="display: flex; align-items: stretch">
           <div class="col-12 col-md-6" style="flex: 0 0 50%; max-width: 50%">
-            <h3>Individual Therapy</h3>
+            <h3 class="mb-3">Individual Therapy</h3>
             <p style="font-size: 18px">
               Life can feel overwhelming at times, whether you're navigating a major transition, coping with anxiety or
               stress, healing from trauma, or simply feeling stuck. Individual therapy provides a safe, supportive space
@@ -145,36 +161,27 @@
           >
             <style>
               @media (min-width: 768px) {
-                .col-12.col-md-5 {
+                .col-12.col-md-6 {
                   padding-right: 30px;
-                  flex: 0 0 41.666667% !important;
-                  max-width: 41.666667% !important;
-                }
-                .col-12.col-md-7 {
-                  flex: 0 0 58.333333% !important;
-                  max-width: 58.333333% !important;
+                  flex: 0 0 50% !important;
+                  max-width: 50% !important;
                 }
               }
               @media (max-width: 767px) {
                 .row {
                   flex-direction: column !important;
                 }
-                .col-12.col-md-5,
-                .col-12.col-md-7 {
+                .col-12.col-md-6 {
                   flex: none !important;
                   width: 100% !important;
                   max-width: 100% !important;
-                }
-                .col-12.col-md-7 {
                   border-left: none !important;
                   padding-left: 0 !important;
                   margin-top: 20px !important;
                 }
               }
             </style>
-            <h3 style="color: #07200d; font-size: 20px; text-align: center; margin-bottom: 20px">
-              <strong>Therapy can support you to</strong>
-            </h3>
+            <h3 class="mb-2">Therapy can support you to</h3>
             <ol style="font-size: 18px">
               <li style="list-style-type: disc">Develop a deeper understanding of yourself</li>
               <li style="list-style-type: disc">Reclaim your sense of power, voice, and agency</li>
@@ -194,12 +201,81 @@
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="container text-center" style="padding-top: 35px; padding-bottom: 35px;margin-top: 50px; margin-bottom: 50px; background-color: #E9ECD7; border-radius: 10px;">
         <p style="font-size: 18px">
           If you're ready to begin - whether it's your first time in therapy or you're returning after a break, I'd be
-          honored to support you on this journey. Schedule a
-          <a href="https://emily-schwass.clientsecure.me/" target="_blank">free 15-minute consultation!</a>
+          honored to support you on this journey.</p><p style="font-size: 18px; font-weight: 600">Schedule a
+          <a
+            href="https://emily-schwass.clientsecure.me/"
+            style="color: #007bff; text-decoration: underline"
+            target="_blank"
+          >
+            free 15-minute consultation!
+          </a>
         </p>
+      </div>
+      <div class="single-blog">
+        <div class="container">                    
+          <div class="row">                       
+            <div class="col-xs-12">
+              <article class="single-post post-details-area">
+                <div class="post-content">    
+                  <div class="author-date" style="padding-bottom: 30px;">
+                    <!-- Single Row with all content -->
+                    <div class="row" style="font-size: 20px; line-height: 45px; padding: 10px 0;">
+                      <div class="col-md-4 col-12 service-column" style="font-weight: bold; text-align: center;">
+                        <span class="service-header">Service<br></span>
+                        <span style="font-weight: normal;">Individual Psychotherapy</span>
+                      </div>
+                      <div class="col-md-4 col-12 text-center" style="font-weight: bold;">
+                        Out of Pocket<br>
+                        <span style="font-weight: normal;">$130</span>
+                      </div>
+                      <div class="col-md-4 col-12 text-center" style="font-weight: bold;">
+                        With Insurance<br>
+                        <span style="font-weight: normal;">$165</span>
+                      </div>
+                    </div>
+                    <p style="margin-top:25px; margin-bottom:0;font-size: 14px;">I accept all major credit cards and debit cards and Zelle. All cards will be charged additional processing fee of 4%. <em>Read about the <a target="_blank" href="img/good-faith-estimate.pdf" style="text-decoration: underline;color: #0000ee;cursor: pointer;font-weight: bold;">good faith estimate</a> pledge</em></p>
+                  </div>
+                  <!-- <h3>Insurance</h3> -->
+                  <div style="border-bottom: 1px solid #ededed; padding-bottom: 30px;padding-top: 30px;">
+                    <p>
+                      <strong style="font-size: 18px;">I am in-network with the following insurance companies in Texas:</strong>
+                      <ul style="margin-top:25px; font-size: 18px;margin-left:35px;">
+                        <li style="margin-top:15px">Aetna</li>
+                        <li style="margin-top:15px;">Blue Cross Blue Shield of Texas</li>
+                        <li style="margin-top:15px;list-style-type: disc;margin-left: 55px;">Blue Essentials</li>
+                        <li style="margin-top:15px;list-style-type: disc;margin-left: 55px;">Blue Premier HMO</li>
+                        <li style="margin-top:15px;list-style-type: disc;margin-left: 55px;">Blue Choice PPO (BH)</li>
+                        <li style="margin-top:15px;list-style-type: disc;margin-left: 55px;">Health Select</li>
+                        <li style="margin-top:15px;list-style-type: disc;margin-left: 55px;">Medicare Advantage PPO (BH)</li>
+                        <li style="margin-top:15px;list-style-type: disc;margin-left: 55px;">Blue High Performance Network</li>
+                        <li style="margin-top:15px">Cigna</li>
+                        <li style="margin-top:15px">Optum/United Health</li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div>
+                    <p style="margin-top:40px">
+                      <p style="font-size: 14px;">
+                        <em>At this time I am not currently credentialed with insurances in Illinois</em>
+                      </p>
+                      <p style="font-size: 14px;">
+                        Questions about insurance or your coverage? Contact <a href="mailto:info@mindfulmentalhealth.com?subject=Insurance Inquiry" style="text-decoration: underline;color: #0000ee;cursor: pointer;font-weight: bold;">info@mindfulmentalhealth.com</a>
+                      </p>
+                      <p style="font-size: 14px;">
+                        <em>
+                          If you have an insurance plan that includes coverage for out-of-network services, upon your request, I will provide you with a Superbill, which you may submit to your insurance company to request reimbursement for services. If you are not sure about your coverage, please contact your insurance provider's member services.
+                        </em>
+                      </p>                                        
+                    </p>
+                  </div>
+                </div>                                   
+              </article>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- service-area end -->
