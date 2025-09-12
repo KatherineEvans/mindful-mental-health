@@ -46,13 +46,22 @@ h1.heading-sub-title {
 
 
 .slider-img-bg-1 {
-  background: rgba(0, 0, 0, 0) url("../../img/zoom.png") no-repeat bottom center / cover ;
+  background: rgba(0, 0, 0, 0) url("../../img/henry-be-IicyiaPYGGI-unsplash1.jpg") no-repeat bottom center / contain ;
+  height: 100px;
+  width: 100%;
 }
 
 .slider-img-bg-2 {
   background: rgba(0, 0, 0, 0) url("../../img/henry-be-IicyiaPYGGI-unsplash1.jpg") no-repeat top center / cover ;
   position: relative;
   height: 100vh
+}
+
+/* Mobile version of slider-img-bg-2 */
+@media (max-width: 768px) {
+  .slider-img-bg-2 {
+    background: rgba(0, 0, 0, 0) url("../../img/henry-be-IicyiaPYGGI-unsplash1-mobile.png") no-repeat top center / cover ;
+  }
 }
 
 .slider-img-bg-2::before {
